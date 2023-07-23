@@ -6,8 +6,8 @@ github.com/koomox/redblacktree v0.0.0-20210330113247-f46882cd075c h1:OxW2fTBEx7O
 github.com/koomox/redblacktree v0.0.0-20210330113247-f46882cd075c/go.mod h1:QJqcwMhWYvgJ7uO/nYbeqo+Jl+YpmAYCfguADSP3igc=
 github.com/koomox/wintun-go v0.0.0-20230719105347-0d443067968a h1:BOhFMiIcZWU8rFJCS/kiOrwvBar6btQf4PBl7pHM2NE=
 github.com/koomox/wintun-go v0.0.0-20230719105347-0d443067968a/go.mod h1:cX2b/HyuBny26Rpwgi7gX038/LCCj0ENZlnOKrvQVsk=
-github.com/koomox/wireguard-go v0.0.0-20230719110006-c3fe6d4319e9 h1:DUM8ib3RBN6RKhCzebUS81l/Pq/QxcMGDdwUdS3V2UA=
-github.com/koomox/wireguard-go v0.0.0-20230719110006-c3fe6d4319e9/go.mod h1:27A4KRg3BFeA1LOwQ3SXc58J1haNvCjV8NsCzwccN+M=
+github.com/koomox/wireguard-go v0.0.0-20230722132638-cc0f064e674d h1:bGxOvMc/M4CLztMqKrcGZbp86b/PfKZ3KJArKJ8Pe+E=
+github.com/koomox/wireguard-go v0.0.0-20230722132638-cc0f064e674d/go.mod h1:EYrUWAzzkZTDNSaFRLkrELhOpMrvvu9dFXT3e5JqQQI=
 github.com/miekg/dns v1.1.55 h1:GoQ4hpsj0nFLYe+bWiCToyrBEJXkQfOOIvFGFy0lEgo=
 github.com/miekg/dns v1.1.55/go.mod h1:uInx36IzPl7FYnDcMeVWxj9byh7DutNykX4G9Sj60FY=
 github.com/oschwald/geoip2-golang v1.9.0 h1:uvD3O6fXAXs+usU+UGExshpdP13GAqp4GBrzN7IgKZc=

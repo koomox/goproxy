@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/koomox/redblacktree v0.0.0-20210330113247-f46882cd075c
-	github.com/koomox/wireguard-go v0.0.0-20230719110006-c3fe6d4319e9
+	github.com/koomox/wireguard-go v0.0.0-20230722132638-cc0f064e674d
 	github.com/miekg/dns v1.1.55
 	github.com/oschwald/geoip2-golang v1.9.0
 )
