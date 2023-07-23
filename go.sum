@@ -30,5 +30,5 @@ golang.org/x/time v0.0.0-20220210224613-90d013bbcef8/go.mod h1:tRJNPiyCQ0inRvYxb
 golang.org/x/tools v0.5.0 h1:+bSpV5HIeWkuvgaMfI3UmKRThoTA5ODJTUd8T17NO+4=
 golang.org/x/tools v0.5.0/go.mod h1:N+Kgy78s5I24c24dU8OfWNEotWjutIs8SnJvn5IDq+k=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
-gvisor.dev/gvisor v0.0.0-20230719045321-ea7cd7184192 h1:8B6xOYwgl6mRqYu6xt2upg+WScAD+9MVo4ad9mpjw94=
-gvisor.dev/gvisor v0.0.0-20230719045321-ea7cd7184192/go.mod h1:sQuqOkxbfJq/GS2uSnqHphtXclHyk/ZrAGhZBxxsq6g=
+gvisor.dev/gvisor v0.0.0-20221203005347-703fd9b7fbc0 h1:Wobr37noukisGxpKo5jAsLREcpj61RxrWYzD8uwveOY=
+gvisor.dev/gvisor v0.0.0-20221203005347-703fd9b7fbc0/go.mod h1:Dn5idtptoW1dIos9U6A2rpebLs/MtTwFacjKb8jLdQA=
