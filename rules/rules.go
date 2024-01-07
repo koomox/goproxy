@@ -31,11 +31,13 @@ func (c *Filter) FromRules(b []byte) {
 		case "user-agent":
 			c.ruleUserAgent = append(c.ruleUserAgent, &Rule{ruleType: RuleTypeUserAgent, word: strings.ToLower(items[1]), adapter: strings.ToUpper(items[2])})
 		case "domain":
-			c.ruleDomains.Put(strings.ToLower(items[1]), &Rule{ruleType: RuleTypeSuffixDomains, word: strings.ToLower(items[1]), adapter: strings.ToUpper(items[2])})
+			c.ruleDomains.Put(strings.ToLower(items[1]), &Rule{ruleType: RuleTypeDomains, word: strings.ToLower(items[1]), adapter: strings.ToUpper(items[2])})
 		case "domain-suffix":
 			c.ruleSuffixDomains.Put(strings.ToLower(items[1]), &Rule{ruleType: RuleTypeSuffixDomains, word: strings.ToLower(items[1]), adapter: strings.ToUpper(items[2])})
 		case "domain-keyword":
 			c.ruleKeywordDomains = append(c.ruleKeywordDomains, &Rule{ruleType: RuleTypeKeywordDomains, word: strings.ToLower(items[1]), adapter: strings.ToUpper(items[2])})
+		case "dst-port": // port white list
+			c.rulePort.Put(strings.ToLower(items[1]), &Rule{ruleType: RuleTypePort, word: strings.ToLower(items[1]), adapter: strings.ToUpper(items[2])})
 		case "ip-cidr":
 			_, cidr, err := net.ParseCIDR(items[1])
 			if err != nil {
